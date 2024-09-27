@@ -753,3 +753,81 @@ nav {
     padding: 2rem;
   }
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 900px) {
+  .section__container {
+    padding: 3rem 1rem;
+  }
+
+  .section__header {
+    font-size: 1.75rem;
+  }
+
+  .header__content h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .header__content h2 {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+
+  .about__grid,
+  .trainer__grid,
+  .membership__grid,
+  .blog__grid {
+    gap: 2rem;
+  }
+
+  .session__card {
+    padding: 3rem 1.5rem;
+  }
+
+  .trainer__card h4 {
+    font-size: 1.2rem;
+  }
+
+  .membership__card h4,
+  .membership__card h3 {
+    font-size: 1.5rem;
+  }
+
+  .nav__links {
+    padding: 1rem;
+  }
+
+  .nav__links a {
+    font-size: 1rem;
+  }
+
+  .nav__logo img {
+    width: 70%;
+    height: 70%;
+  }
+
+  .trainer__socials a {
+    font-size: 1rem;
+  }
+
+  .client__card img {
+    max-width: 80px;
+  }
+
+  .footer__col form {
+    max-width: 300px;
+  }
+
+  .footer__socials a {
+    font-size: 1rem;
+  }
+
+  .logo__banner img {
+    max-width: 120px;
+  }
+
+  .gallery__grid {
+    max-width: 200px;
+  }
+}
