@@ -8,6 +8,7 @@ async function loadRecipes() {
 
       const recipesData = await response.json(); // Convertir la respuesta a JSON
       renderRecipes(recipesData.recipes); // Pasar los datos de las recetas a la función de renderizado
+      return recipesData.recipes; // Devolver las recetas para usarlas en la búsqueda
   } catch (error) {
       console.error(error);
   }
@@ -60,23 +61,23 @@ function openRecipeModal(recipe) {
   // Setear la imagen, el título, los ingredientes y las instrucciones
   recipeImage.src = recipe.image;
   recipeTitle.textContent = recipe.name;
-  
+
   // Limpiar contenido previo de ingredientes e instrucciones
   recipeIngredients.innerHTML = '';
   recipeInstructions.innerHTML = '';
-  
+
   // Cargar los ingredientes
   recipe.ingredients.forEach(ingredient => {
-    const li = document.createElement('li');
-    li.textContent = `${ingredient.quantity} ${ingredient.unit} ${ingredient.name}`;
-    recipeIngredients.appendChild(li);
+      const li = document.createElement('li');
+      li.textContent = `${ingredient.quantity} ${ingredient.unit} ${ingredient.name}`;
+      recipeIngredients.appendChild(li);
   });
 
   // Cargar las instrucciones
   recipe.instructions.forEach(instruction => {
-    const li = document.createElement('li');
-    li.textContent = instruction;
-    recipeInstructions.appendChild(li);
+      const li = document.createElement('li');
+      li.textContent = instruction;
+      recipeInstructions.appendChild(li);
   });
 
   // Mostrar el modal
@@ -95,19 +96,61 @@ document.querySelector('.close-button').addEventListener('click', closeRecipeMod
 // Cargar y mostrar los detalles de la receta desde el JSON cuando se hace clic en "Ver Receta"
 async function loadRecipeFromJson(recipeIndex) {
   try {
-    const response = await fetch('recetas.json'); // Cargar el archivo JSON
-    if (!response.ok) {
-      throw new Error('Error al cargar el archivo JSON');
-    }
+      const response = await fetch('recetas.json'); // Cargar el archivo JSON
+      if (!response.ok) {
+          throw new Error('Error al cargar el archivo JSON');
+      }
 
-    const recipesData = await response.json();
-    const recipe = recipesData.recipes[recipeIndex]; // Seleccionar la receta según el índice
-    openRecipeModal(recipe); // Abrir el modal con la receta seleccionada
+      const recipesData = await response.json();
+      const recipe = recipesData.recipes[recipeIndex]; // Seleccionar la receta según el índice
+      openRecipeModal(recipe); // Abrir el modal con la receta seleccionada
   } catch (error) {
-    console.error(error);
+      console.error(error);
   }
 }
 
+// Referencias de elementos HTML
+const searchInput = document.getElementById('searchInput');
+const cardsContainer = document.querySelector('.cards-container');
+let allRecipes = []; // Variable para almacenar todas las recetas
+
+// Función para mostrar las recetas
+function displayRecipes(recipesToDisplay) {
+  cardsContainer.innerHTML = ''; // Limpiar el contenedor
+
+  recipesToDisplay.forEach(recipe => {
+      const card = document.createElement('div');
+      card.classList.add('card'); // Asegúrate de que la clase sea 'card'
+      
+      card.innerHTML = `
+          <img src="${recipe.image}" alt="${recipe.name}">
+          <h3>${recipe.name}</h3>
+          <p>Delicious ${recipe.name} recipe.</p>
+          <button class="btn" onclick="loadRecipeFromJson(${allRecipes.indexOf(recipe)})">Ver Receta</button>
+      `;
+      
+      cardsContainer.appendChild(card);
+  });
+}
+
+// Función para filtrar recetas por nombre
+function filterRecipesByName(searchTerm) {
+  const filteredRecipes = allRecipes.filter(recipe =>
+      recipe.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+  displayRecipes(filteredRecipes);
+}
+
 // Ejecutar la función cuando el DOM esté completamente cargado
-document.addEventListener('DOMContentLoaded', loadRecipes);
+document.addEventListener('DOMContentLoaded', async () => {
+  allRecipes = await loadRecipes(); // Cargar recetas y almacenarlas
+  displayRecipes(allRecipes); // Mostrar todas las recetas al cargar la página
+});
+
+// Evento de búsqueda
+searchInput.addEventListener('input', (e) => {
+  const searchTerm = e.target.value;
+  filterRecipesByName(searchTerm);
+});
+
 

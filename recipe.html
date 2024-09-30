@@ -10,33 +10,46 @@
 </head>
 
 <body>
-  <div> <!-- Botón de volver -->
-    <a href="index.html" class="back-button">
-      <i class="ri-arrow-left-line"></i> Volver
-    </a>
-  </div>
+  <!-- Contenedor principal -->
+  <div class="container">
+    <!-- Título principal -->
+    <h1>Recetas de Bodegon</h1>
 
-  <!-- Contenedor de las tarjetas que se llenará dinámicamente -->
-  <div class="cards-container">
-    <!-- Aquí se insertará la tarjeta generada dinámicamente desde el JSON -->
-  </div>
+    <!-- Buscador -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Buscar receta...">
+    </div>
 
-<!-- Modal -->
-<div id="recipeModal" class="modal">
-  <div class="modal-content">
-    <span class="close-button">&times;</span>
-    <div class="modal-body">
-      <img id="recipeImage" src="" alt="Recipe Image" />
-      <h3 id="recipeTitle"></h3>
-      <h4>Ingredients</h4>
-      <ul id="recipeIngredients"></ul>
-      <h4>Instructions</h4>
-      <ol id="recipeInstructions"></ol>
+    <!-- Botón de volver -->
+    <div class="back-button-container">
+      <a href="index.html" class="back-button">
+        <i class="ri-arrow-left-line"></i> Volver
+      </a>
+    </div>
+
+    <!-- Contenedor de las tarjetas -->
+    <div class="cards-container" id="cardsContainer">
+      <!-- Aquí se insertarán las tarjetas dinámicamente -->
+    </div>
+
+    <!-- Modal -->
+    <div id="recipeModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div class="modal-body">
+          <img id="recipeImage" src="" alt="Recipe Image" />
+          <h3 id="recipeTitle"></h3>
+          <h4>Ingredientes</h4>
+          <ul id="recipeIngredients"></ul>
+          <h4>Instrucciones</h4>
+          <ol id="recipeInstructions"></ol>
+        </div>
+      </div>
     </div>
   </div>
-</div>
 
   <script defer src="recipe.js"></script> <!-- Vincula tu archivo JavaScript -->
 </body>
+
 
 </html>
