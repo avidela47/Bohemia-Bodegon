@@ -21,6 +21,21 @@
     <!-- Aquí se insertará la tarjeta generada dinámicamente desde el JSON -->
   </div>
 
+<!-- Modal -->
+<div id="recipeModal" class="modal">
+  <div class="modal-content">
+    <span class="close-button">&times;</span>
+    <div class="modal-body">
+      <img id="recipeImage" src="" alt="Recipe Image" />
+      <h3 id="recipeTitle"></h3>
+      <h4>Ingredients</h4>
+      <ul id="recipeIngredients"></ul>
+      <h4>Instructions</h4>
+      <ol id="recipeInstructions"></ol>
+    </div>
+  </div>
+</div>
+
   <script defer src="recipe.js"></script> <!-- Vincula tu archivo JavaScript -->
 </body>
 
