@@ -140,9 +140,9 @@ body {
   .card .btn:hover {
     background-color: #ff4a36;
   }
-  
-  /* Estilos del modal */
-  .modal {
+
+/* Estilos del modal */
+.modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -152,9 +152,9 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     overflow: auto;
-  }
-  
-  .modal-content {
+}
+
+.modal-content {
     background-color: #fff;
     margin: 5% auto;
     padding: 20px;
@@ -163,27 +163,49 @@ body {
     max-width: 500px;
     max-height: 90vh;
     overflow-y: auto;
-  }
-  
-  .close-button {
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+.close-button {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close-button:hover,
-  .close-button:focus {
+}
+
+.close-button:hover,
+.close-button:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
-  
-  .modal-body img {
+}
+
+.modal-body img {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
-  }
+}
+
+/* Estilo para el contenido textual del modal */
+.modal-body {
+    text-align: justify; /* Justificar el texto en el cuerpo del modal */
+}
+
+/* Centrar los encabezados h3 y h4 en el modal */
+.modal-content h3,
+.modal-content h4 {
+    text-align: center; /* Centrar el texto */
+}
+
+/* Si deseas aplicar estilos adicionales a los encabezados */
+.modal-content h3 {
+    margin: 10px 0; /* Espaciado superior e inferior */
+}
+
+.modal-content h4 {
+    margin: 5px 0; /* Espaciado superior e inferior */
+}
+
   
   /* Responsive Design */
   @media (max-width: 768px) {
