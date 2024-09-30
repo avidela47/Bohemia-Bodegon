@@ -63,6 +63,9 @@ body {
     font-size: 1rem;
     color: #666;
     margin-bottom: 15px;
+    white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+    overflow: hidden; /* Oculta el texto desbordado */
+    text-overflow: ellipsis; /* Muestra "..." si el texto es más largo que el contenedor */
 }
 
 .card .btn {

@@ -111,7 +111,7 @@
         },
         {
             "name": "Margarita Pizza",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY7RbPLpeQGEKr-JMLB6L9kRdCTMtUbFJfJw&s",
+            "image": "https://resizer.glanacion.com/resizer/v2/la-pizza-margarita-lleva-los-colores-de-la-M7NX62ONAJGRHMGZQKL3UMOIG4.jpeg?auth=95a4f0c18b4249f8a85c43e89ed95fc56dbfa22ac852945962285bb3c2638680&width=768&height=512&quality=70&smart=true",
             "ingredients": [
                 { "name": "pizza dough", "quantity": 1, "unit": "ball" },
                 { "name": "tomato sauce", "quantity": 0.5, "unit": "cup" },
@@ -125,6 +125,49 @@
                 "Spread tomato sauce over the dough.",
                 "Add mozzarella cheese and fresh basil leaves.",
                 "Drizzle with olive oil and bake for 10-12 minutes until the crust is golden and the cheese is bubbly."
+            ]
+        },
+        {
+            "name": "Spaghetti Carbonara",
+            "image": "https://static01.nyt.com/images/2021/02/14/dining/carbonara-horizontal/carbonara-horizontal-googleFourByThree-v2.jpg",
+            "ingredients": [
+                { "name": "spaghetti", "quantity": 400, "unit": "grams" },
+                { "name": "pancetta", "quantity": 150, "unit": "grams" },
+                { "name": "eggs", "quantity": 3, "unit": "large" },
+                { "name": "parmesan cheese", "quantity": 0.5, "unit": "cup" },
+                { "name": "black pepper", "quantity": "to taste", "unit": "" },
+                { "name": "salt", "quantity": "to taste", "unit": "" }
+            ],
+            "instructions": [
+                "Cook the spaghetti in salted boiling water until al dente.",
+                "In a pan, cook the pancetta until crispy.",
+                "In a bowl, beat the eggs and mix in the parmesan cheese.",
+                "Drain the spaghetti and mix it with the pancetta.",
+                "Remove from heat and quickly add the egg mixture, stirring vigorously to create a creamy sauce.",
+                "Season with black pepper and serve immediately."
+            ]
+        },
+        {
+            "name": "Chocolate Chip Cookies",
+            "image": "https://www.verybestbaking.com/sites/g/files/jgfbjl326/files/srh_recipes/4bc5edb86285aadc28069f51d9e98974.jpg",
+            "ingredients": [
+                { "name": "butter", "quantity": 1, "unit": "cup" },
+                { "name": "sugar", "quantity": 1, "unit": "cup" },
+                { "name": "brown sugar", "quantity": 0.5, "unit": "cup" },
+                { "name": "eggs", "quantity": 2, "unit": "large" },
+                { "name": "vanilla extract", "quantity": 1, "unit": "teaspoon" },
+                { "name": "flour", "quantity": 2.5, "unit": "cups" },
+                { "name": "baking soda", "quantity": 1, "unit": "teaspoon" },
+                { "name": "chocolate chips", "quantity": 1.5, "unit": "cups" }
+            ],
+            "instructions": [
+                "Preheat the oven to 350°F (175°C).",
+                "Cream together the butter and sugars until smooth.",
+                "Beat in the eggs and vanilla extract.",
+                "Stir in the flour and baking soda, then fold in the chocolate chips.",
+                "Drop dough by rounded spoonfuls onto a baking sheet.",
+                "Bake for 10-12 minutes or until edges are golden.",
+                "Cool on wire racks."
             ]
         }
     ]
