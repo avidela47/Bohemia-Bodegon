@@ -46,7 +46,9 @@ body {
 }
 
 .card img {
-    max-width: 100%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* Asegura que la imagen se recorte si es necesario sin distorsionarse */
     border-radius: 8px;
     margin-bottom: 10px;
 }

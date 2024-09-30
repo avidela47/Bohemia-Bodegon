@@ -2,7 +2,7 @@
     "recipes": [
         {
             "name": "Apple Crumble",
-            "image": "https://www.clarin.com/img/2020/06/10/7wf2w0Wv__1200x630__1.jpg",
+            "image": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2FPhoto%2FRecipes%2F2019-10-how-to-easiest-apple-crumble%2FHT-Easiest-Apple-Crumble_080",
             "ingredients": [
                 { "name": "medium apples", "quantity": 4, "unit": "" },
                 { "name": "sugar", "quantity": 0.5, "unit": "cup" },
@@ -26,7 +26,7 @@
         },
         {
             "name": "Spaghetti Carbonara",
-            "image": "https://www.thespruceeats.com/thmb/SpgCarbonara-5cde6e5f9a3b48f997cb30b7a01c98b4.jpg",
+            "image": "https://static01.nyt.com/images/2021/02/14/dining/carbonara-horizontal/carbonara-horizontal-googleFourByThree-v2.jpg",
             "ingredients": [
                 { "name": "spaghetti", "quantity": 400, "unit": "grams" },
                 { "name": "pancetta", "quantity": 150, "unit": "grams" },
@@ -46,7 +46,7 @@
         },
         {
             "name": "Chocolate Chip Cookies",
-            "image": "https://www.simplyrecipes.com/thmb/Cookies-cc82e3fae7e7cb489dc84f5ccbfda8cc.jpg",
+            "image": "https://www.verybestbaking.com/sites/g/files/jgfbjl326/files/srh_recipes/4bc5edb86285aadc28069f51d9e98974.jpg",
             "ingredients": [
                 { "name": "butter", "quantity": 1, "unit": "cup" },
                 { "name": "sugar", "quantity": 1, "unit": "cup" },
@@ -69,7 +69,7 @@
         },
         {
             "name": "Chicken Curry",
-            "image": "https://www.cookwithmanali.com/wp-content/uploads/Chicken-Curry-1.jpg",
+            "image": "https://www.whiskaffair.com/wp-content/uploads/2021/10/Andhra-Chicken-Curry-2-3.jpg",
             "ingredients": [
                 { "name": "chicken thighs", "quantity": 500, "unit": "grams" },
                 { "name": "onion", "quantity": 1, "unit": "large" },
@@ -91,7 +91,7 @@
         },
         {
             "name": "Caesar Salad",
-            "image": "https://www.simplyrecipes.com/thmb/CaesarSalad-e0e0c2eb4c1a0ad7e7227020b2541dbf.jpg",
+            "image": "https://www.grocery.coop/sites/default/files/NCG_Dennis_Becker_Classic_Caesar_Salad_715_x_477.jpg",
             "ingredients": [
                 { "name": "romaine lettuce", "quantity": 1, "unit": "head" },
                 { "name": "croutons", "quantity": 1, "unit": "cup" },
@@ -111,7 +111,7 @@
         },
         {
             "name": "Margarita Pizza",
-            "image": "https://www.thespruceeats.com/thmb/MargaritaPizza.jpg",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY7RbPLpeQGEKr-JMLB6L9kRdCTMtUbFJfJw&s",
             "ingredients": [
                 { "name": "pizza dough", "quantity": 1, "unit": "ball" },
                 { "name": "tomato sauce", "quantity": 0.5, "unit": "cup" },
