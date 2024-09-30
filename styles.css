@@ -621,6 +621,8 @@ nav {
   text-align: center;
 }
 
+
+
 @media (width > 540px) {
   .about__grid {
     grid-template-columns: repeat(2, 1fr);

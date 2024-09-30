@@ -1,250 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="assets/logo.png" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Bohemia | Bodegon</title>
-  </head>
-  <body>
-    <nav>
-      <div class="nav__bar">
-        <div class="nav__header">
-          <div class="nav__logo">
-            <a href="#"><img src="assets/logo.png" alt="logo" /></a>
-          </div>
-          <div class="nav__menu__btn" id="menu-btn">
-            <i class="ri-menu-line"></i>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/logo.png" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Bohemia | Bodegon</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__bar">
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#"><img src="assets/logo.png" alt="logo" /></a>
         </div>
-        <ul class="nav__links" id="nav-links">
-          <li><a href="#home">INICIO</a></li>
-          <li><a href="#about">HISTORIA</a></li>
-          <li><a href="#blog">MENU</a></li>
-          <li><a href="#contact">CONTACTO</a></li>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">INICIO</a></li>
+        <li><a href="#about">HISTORIA</a></li>
+        <li><a href="#recetas">RECETAS</a></li>
+        <li><a href="#blog">MENU</a></li>
+        <li><a href="#contact">CONTACTO</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header" id="header">
+    <div class="section__container header__container">
+      <div class="header__content">
+        <h1>BODEGON&nbspARGENTINO</h1>
+        <h2>Espacio de historia viva</h2>
+        <p>Cocina tradicional argentina que que transmite a través de la abundancia y de su ambiente.</p>
+        <div class="header__btn">
+          <a class="btn btn__primary" href="#about">EMPEZAR</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section__container about__container" id="about">
+    <div class="about__header">
+      <h2 class="section__header">HISTORIA</h2>
+      <p class="section__description">
+        Los bodegones en Argentina tienen una rica historia que refleja la mezcla cultural y gastronómica del país,
+        originada principalmente por las olas de inmigración europea de finales del siglo XIX y principios del XX,
+        particularmente de españoles e italianos. Estos establecimientos surgieron como lugares populares para que los
+        inmigrantes encontraran un espacio de socialización y acceso a comidas abundantes y económicas, que recordaban a
+        las recetas caseras de sus tierras de origen.
+      </p>
+    </div>
+    <div class="about__grid">
+      <div class="about__card">
+        <h4>La época dorada</h4>
+        <p>
+          Con el auge de los bodegones en las décadas de 1920 y 1960, BOHEMIA, se instala en Buenos Aires en 1950, la
+          ciudad ya experimentaba una expansión urbana y crecimiento económico. BOHEMIA se convirtio en un punto de
+          encuentro para las familias, trabajadores y artistas locales.
+        </p>
+      </div>
+      <div class="about__card">
+        <h4>Decadencia y renacimiento</h4>
+        <p>
+          A partir de la década de 1970, el surgimiento de cadenas de restaurantes y la globalización de la gastronomía
+          pusieron a los bodegones en una especie de segundo plano. Sin embargo, a principios del siglo XXI, comenzaron
+          a experimentar un resurgimiento.
+        </p>
+      </div>
+      <div class="about__card">
+        <h4>Los bodegones hoy</h4>
+        <p>
+          En la actualidad, los bodegones han recuperado su popularidad, no solo entre los argentinos, sino también
+          entre turistas que buscan vivir una experiencia gastronómica típica. Los bodegones argentinos siguen siendo
+          una parte esencial del paisaje culinario del país.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="session" id="recetas">
+    <div class="session__card">
+      <h4>ENTRADAS</h4>
+      <p>
+        Las entradas en los bodegones son variadas, abundantes y muchas veces pueden ser compartidas.
+      </p>
+      <button class="btn btn__secondary" onclick="showRecipe('entradas')">
+        VER RECETAS <i class="ri-arrow-right-line"></i>
+      </button>
+    </div>
+    <div class="session__card">
+      <h4>PASTAS</h4>
+      <p>
+        Debido a la fuerte influencia italiana, los bodegones ofrecen una variedad de pastas caseras.
+      </p>
+      <button class="btn btn__secondary" onclick="showRecipe('pastas')">
+        VER RECETAS <i class="ri-arrow-right-line"></i>
+      </button>
+    </div>
+    <div class="session__card">
+      <h4>CARNES</h4>
+      <p>
+        La carne es uno de los protagonistas en los bodegones argentinos, y suele servirse en porciones grandes.
+      </p>
+      <button class="btn btn__secondary" onclick="showRecipe('carnes')">
+        VER RECETAS <i class="ri-arrow-right-line"></i>
+      </button>
+    </div>
+    <div class="session__card">
+      <h4>POSTRES</h4>
+      <p>
+        Los postres en los bodegones son igualmente clásicos y abundantes, con recetas tradicionales.
+      </p>
+      <button class="btn btn__secondary" onclick="showRecipe('postres')">
+        VER RECETAS <i class="ri-arrow-right-line"></i>
+      </button>
+    </div>
+  </section>
+
+  <section class="section__container trainer__container" id="trainer">
+    <h2 class="section__header">SUCURSALES</h2>
+    <div class="trainer__grid">
+      <div class="trainer__card">
+        <img src="assets/trainer-1.jpg" alt="trainer" />
+        <h4>BOHEMIA</h4>
+        <p>San Martín 560, CABA</p>
+      </div>
+      <div class="trainer__card">
+        <img src="assets/trainer-2.jpg" alt="trainer" />
+        <h4>BOHEMIA</h4>
+        <p> Av. Callao 401, San Nicolás</p>
+      </div>
+      <div class="trainer__card">
+        <img src="assets/trainer-3.jpg" alt="trainer" />
+        <h4>BOHEMIA</h4>
+        <p>Carlos Calvo 799, San Telmo</p>
+      </div>
+      <div class="trainer__card">
+        <img src="assets/trainer-4.jpg" alt="trainer" />
+        <h4>BOHEMIA</h4>
+        <p>Jufré 202, Villa Crespo</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog" id="blog">
+    <div class="section__container blog__container">
+      <h2 class="section__header">MENU</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <img src="assets/blog-1.jpg" alt="blog" />
+          <h4>Selección de finos fiambres artesanales. Ideal para compartir</h4>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-2.jpg" alt="blog" />
+          <h4>Ñoquis de papa caseros, con salsa Bolognesa. Un clásico reconfortante</h4>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-3.jpg" alt="blog" />
+          <h4>Bife de chorizo jugoso, acompañado con papas. Un corte clásico y sabroso</h4>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-4.jpg" alt="blog" />
+          <h4>Budín&nbspde&nbsppan&nbspcasero,&nbspcon&nbspcrema&nbspbatida. Un postre tradicional e irresistible</h4>
+        </div>
+      </div>
+      <div class="blog__btn">
+        <button class="btn btn__primary">VER TODO</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container logo__banner">
+    <img src="assets/banner-1.png" alt="banner" />
+    <img src="assets/banner-2.png" alt="banner" />
+    <img src="assets/banner-3.png" alt="banner" />
+    <img src="assets/banner-4.png" alt="banner" />
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+        </div>
+        <p>
+          Bienvenido a Bohemia, donde cada viaje es único y enriquecedor.
+        </p>
+        <ul class="footer__links">
+          <li>
+            <a href="#">
+              <span><i class="ri-map-pin-2-fill"></i></span>
+              Esmeralda 535<br />Cordoba, Argentina
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="ri-phone-fill"></i></span>
+              +91 9876543210
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="ri-mail-fill"></i></span>
+              info@bohemia.com
+            </a>
+          </li>
         </ul>
       </div>
-    </nav>
-
-    <header class="header" id="header">
-      <div class="section__container header__container">
-        <div class="header__content">
-          <h1>BODEGON&nbspARGENTINO</h1>
-          <h2>Espacio de historia viva</h2>
-          <p>Cocina tradicional argentina que que transmite a través de la abundancia y de su ambiente.</p>
-          <div class="header__btn">
-            <a class="btn btn__primary" href="#about">EMPEZAR</a>
-          </div>
+      <div class="footer__col">
+        <h4>GALLERIA</h4>
+        <div class="gallery__grid">
+          <img src="assets/gallery-1.jpg" alt="gallery" />
+          <img src="assets/gallery-2.jpg" alt="gallery" />
+          <img src="assets/gallery-3.jpg" alt="gallery" />
+          <img src="assets/gallery-4.jpg" alt="gallery" />
+          <img src="assets/gallery-5.jpg" alt="gallery" />
+          <img src="assets/gallery-6.jpg" alt="gallery" />
+          <img src="assets/gallery-7.jpg" alt="gallery" />
+          <img src="assets/gallery-8.jpg" alt="gallery" />
+          <img src="assets/gallery-9.jpg" alt="gallery" />
         </div>
       </div>
-    </header>
-
-    <section class="section__container about__container" id="about">
-      <div class="about__header">
-        <h2 class="section__header">HISTORIA</h2>
-        <p class="section__description">
-          Los bodegones en Argentina tienen una rica historia que refleja la mezcla cultural y gastronómica del país, originada principalmente por las olas de inmigración europea de finales del siglo XIX y principios del XX, particularmente de españoles e italianos. Estos establecimientos surgieron como lugares populares para que los inmigrantes encontraran un espacio de socialización y acceso a comidas abundantes y económicas, que recordaban a las recetas caseras de sus tierras de origen.
-        </p>
-      </div>
-      <div class="about__grid">
-        <div class="about__card">
-          <h4>La época dorada</h4>
-          <p>
-            Con el auge de los bodegones en las décadas de 1920 y 1960, BOHEMIA, se instala en Buenos Aires en 1950, la ciudad ya experimentaba una expansión urbana y crecimiento económico. BOHEMIA se convirtio en un punto de encuentro para las familias, trabajadores y artistas locales.
-          </p>
-        </div>
-        <div class="about__card">
-          <h4>Decadencia y renacimiento</h4>
-          <p>
-            A partir de la década de 1970, el surgimiento de cadenas de restaurantes y la globalización de la gastronomía pusieron a los bodegones en una especie de segundo plano. Sin embargo, a principios del siglo XXI, comenzaron a experimentar un resurgimiento.
-          </p>
-        </div>
-        <div class="about__card">
-          <h4>Los bodegones hoy</h4>
-          <p>
-            En la actualidad, los bodegones han recuperado su popularidad, no solo entre los argentinos, sino también entre turistas que buscan vivir una experiencia gastronómica típica. Los bodegones argentinos siguen siendo una parte esencial del paisaje culinario del país.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="session">
-      <div class="session__card">
-        <h4>ENTRADAS</h4>
+      <div class="footer__col">
+        <h4>NEWSLETTER</h4>
         <p>
-          Las entradas en los bodegones son variadas, abundantes y muchas veces pueden ser compartidas.
+          No te pierdas las últimas noticias: ¡regístrate hoy y únete a nuestra comunidad gastronómica!
         </p>
-        <button class="btn btn__secondary">
-          VER RECETAS <i class="ri-arrow-right-line"></i>
-        </button>
+        <form action="/">
+          <input type="text" placeholder="Ingresa tu Email" />
+          <button class="btn btn__primary">ENVIAR</button>
+        </form>
+        <div class="footer__socials">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-twitter-x-fill"></i></a>
+          <a href="#"><i class="ri-youtube-fill"></i></a>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-tiktok-line"></i></a>
+        </div>
       </div>
-      <div class="session__card">
-        <h4>PASTAS</h4>
-        <p>
-          Debido a la fuerte influencia italiana, los bodegones ofrecen una variedad de pastas caseras.
-        </p>
-        <button class="btn btn__secondary">
-          VER RECETAS <i class="ri-arrow-right-line"></i>
-        </button>
-      </div>
-      <div class="session__card">
-        <h4>CARNES</h4>
-        <p>
-          La carne es uno de los protagonistas en los bodegones argentinos, y suele servirse en porciones grandes.
-        </p>
-        <button class="btn btn__secondary">
-          VER RECETAS <i class="ri-arrow-right-line"></i>
-        </button>
-      </div>
-      <div class="session__card">
-        <h4>POSTRES</h4>
-        <p>
-          Los postres en los bodegones son igualmente clásicos y abundantes, con recetas tradicionales.
-        </p>
-        <button class="btn btn__secondary">
-          VER RECETAS <i class="ri-arrow-right-line"></i>
-        </button>
-      </div>
-    </section>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2024 Web Design Mastery by Ariel Videla. All rights reserved.
+    </div>
+  </footer>
 
-    <section class="section__container trainer__container" id="trainer">
-      <h2 class="section__header">SUCURSALES</h2>
-      <div class="trainer__grid">
-        <div class="trainer__card">
-          <img src="assets/trainer-1.jpg" alt="trainer" />
-          <h4>BOHEMIA</h4>
-          <p>San Martín 560, CABA</p>
-        </div>
-        <div class="trainer__card">
-          <img src="assets/trainer-2.jpg" alt="trainer" />
-          <h4>BOHEMIA</h4>
-          <p> Av. Callao 401, San Nicolás</p>
-        </div>
-        <div class="trainer__card">
-          <img src="assets/trainer-3.jpg" alt="trainer" />
-          <h4>BOHEMIA</h4>
-          <p>Carlos Calvo 799, San Telmo</p>
-        </div>
-        <div class="trainer__card">
-          <img src="assets/trainer-4.jpg" alt="trainer" />
-          <h4>BOHEMIA</h4>
-          <p>Jufré 202, Villa Crespo</p>
-        </div>
-      </div>
-    </section>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
 
-    <section class="blog" id="blog">
-      <div class="section__container blog__container">
-        <h2 class="section__header">MENU</h2>
-        <div class="blog__grid">
-          <div class="blog__card">
-            <img src="assets/blog-1.jpg" alt="blog" />
-            <h4>Selección de finos fiambres artesanales. Ideal para compartir</h4>
-          </div>
-          <div class="blog__card">
-            <img src="assets/blog-2.jpg" alt="blog" />
-            <h4>Ñoquis de papa caseros, con salsa Bolognesa. Un clásico reconfortante</h4>
-          </div>
-          <div class="blog__card">
-            <img src="assets/blog-3.jpg" alt="blog" />
-            <h4>Bife de chorizo jugoso, acompañado con papas. Un corte clásico y sabroso</h4>
-          </div>
-          <div class="blog__card">
-            <img src="assets/blog-4.jpg" alt="blog" />
-            <h4>Budín&nbspde&nbsppan&nbspcasero,&nbspcon&nbspcrema&nbspbatida. Un postre tradicional e irresistible</h4>
-          </div>
-        </div>
-        <div class="blog__btn">
-          <button class="btn btn__primary">VER TODO</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="section__container logo__banner">
-      <img src="assets/banner-1.png" alt="banner" />
-      <img src="assets/banner-2.png" alt="banner" />
-      <img src="assets/banner-3.png" alt="banner" />
-      <img src="assets/banner-4.png" alt="banner" />
-    </section>
-
-    <footer class="footer" id="contact">
-      <div class="section__container footer__container">
-        <div class="footer__col">
-          <div class="footer__logo">
-            <a href="#"><img src="assets/logo.png" alt="logo" /></a>
-          </div>
-          <p>
-            Bienvenido a Bohemia, donde cada viaje es único y enriquecedor.
-          </p>
-          <ul class="footer__links">
-            <li>
-              <a href="#">
-                <span><i class="ri-map-pin-2-fill"></i></span>
-                Esmeralda 535<br />Cordoba, Argentina
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span><i class="ri-phone-fill"></i></span>
-                +91 9876543210
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span><i class="ri-mail-fill"></i></span>
-                info@bohemia.com
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__col">
-          <h4>GALLERIA</h4>
-          <div class="gallery__grid">
-            <img src="assets/gallery-1.jpg" alt="gallery" />
-            <img src="assets/gallery-2.jpg" alt="gallery" />
-            <img src="assets/gallery-3.jpg" alt="gallery" />
-            <img src="assets/gallery-4.jpg" alt="gallery" />
-            <img src="assets/gallery-5.jpg" alt="gallery" />
-            <img src="assets/gallery-6.jpg" alt="gallery" />
-            <img src="assets/gallery-7.jpg" alt="gallery" />
-            <img src="assets/gallery-8.jpg" alt="gallery" />
-            <img src="assets/gallery-9.jpg" alt="gallery" />
-          </div>
-        </div>
-        <div class="footer__col">
-          <h4>NEWSLETTER</h4>
-          <p>
-            No te pierdas las últimas noticias: ¡regístrate hoy y únete a nuestra comunidad gastronómica!
-          </p>
-          <form action="/">
-            <input type="text" placeholder="Ingresa tu Email" />
-            <button class="btn btn__primary">ENVIAR</button>
-          </form>
-          <div class="footer__socials">
-            <a href="#"><i class="ri-facebook-fill"></i></a>
-            <a href="#"><i class="ri-twitter-fill"></i></a>
-            <a href="#"><i class="ri-youtube-fill"></i></a>
-            <a href="#"><i class="ri-instagram-line"></i></a>
-            <a href="#"><i class="ri-tiktok-line"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="footer__bar">
-        Copyright © 2024 Web Design Mastery by Ariel Videla. All rights reserved.
-      </div>
-    </footer>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="main.js"></script>
-  </body>
 </html>

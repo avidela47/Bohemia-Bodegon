@@ -1,0 +1,132 @@
+{
+    "recipes": [
+        {
+            "name": "Apple Crumble",
+            "image": "https://www.clarin.com/img/2020/06/10/7wf2w0Wv__1200x630__1.jpg",
+            "ingredients": [
+                { "name": "medium apples", "quantity": 4, "unit": "" },
+                { "name": "sugar", "quantity": 0.5, "unit": "cup" },
+                { "name": "cinnamon", "quantity": 1, "unit": "teaspoon" },
+                { "name": "nutmeg", "quantity": 0.25, "unit": "teaspoon" },
+                { "name": "flour", "quantity": 0.5, "unit": "cup" },
+                { "name": "rolled oats", "quantity": 0.5, "unit": "cup" },
+                { "name": "brown sugar", "quantity": 0.5, "unit": "cup" },
+                { "name": "softened butter", "quantity": 0.5, "unit": "cup" },
+                { "name": "salt", "quantity": "a pinch", "unit": "" }
+            ],
+            "instructions": [
+                "Preheat the oven to 375°F (190°C).",
+                "In a large bowl, mix together the apples, sugar, cinnamon, and nutmeg. Transfer the mixture to a baking dish.",
+                "In another bowl, mix together the flour, rolled oats, brown sugar, and salt.",
+                "Add the softened butter and use your fingers to mix until you get coarse crumbs.",
+                "Sprinkle the crumb mixture on top of the apple mixture in the baking dish.",
+                "Bake in the oven for 30-35 minutes, or until the crumble is golden and crispy.",
+                "Let it cool before serving."
+            ]
+        },
+        {
+            "name": "Spaghetti Carbonara",
+            "image": "https://www.thespruceeats.com/thmb/SpgCarbonara-5cde6e5f9a3b48f997cb30b7a01c98b4.jpg",
+            "ingredients": [
+                { "name": "spaghetti", "quantity": 400, "unit": "grams" },
+                { "name": "pancetta", "quantity": 150, "unit": "grams" },
+                { "name": "eggs", "quantity": 3, "unit": "large" },
+                { "name": "parmesan cheese", "quantity": 0.5, "unit": "cup" },
+                { "name": "black pepper", "quantity": "to taste", "unit": "" },
+                { "name": "salt", "quantity": "to taste", "unit": "" }
+            ],
+            "instructions": [
+                "Cook the spaghetti in salted boiling water until al dente.",
+                "In a pan, cook the pancetta until crispy.",
+                "In a bowl, beat the eggs and mix in the parmesan cheese.",
+                "Drain the spaghetti and mix it with the pancetta.",
+                "Remove from heat and quickly add the egg mixture, stirring vigorously to create a creamy sauce.",
+                "Season with black pepper and serve immediately."
+            ]
+        },
+        {
+            "name": "Chocolate Chip Cookies",
+            "image": "https://www.simplyrecipes.com/thmb/Cookies-cc82e3fae7e7cb489dc84f5ccbfda8cc.jpg",
+            "ingredients": [
+                { "name": "butter", "quantity": 1, "unit": "cup" },
+                { "name": "sugar", "quantity": 1, "unit": "cup" },
+                { "name": "brown sugar", "quantity": 0.5, "unit": "cup" },
+                { "name": "eggs", "quantity": 2, "unit": "large" },
+                { "name": "vanilla extract", "quantity": 1, "unit": "teaspoon" },
+                { "name": "flour", "quantity": 2.5, "unit": "cups" },
+                { "name": "baking soda", "quantity": 1, "unit": "teaspoon" },
+                { "name": "chocolate chips", "quantity": 1.5, "unit": "cups" }
+            ],
+            "instructions": [
+                "Preheat the oven to 350°F (175°C).",
+                "Cream together the butter and sugars until smooth.",
+                "Beat in the eggs and vanilla extract.",
+                "Stir in the flour and baking soda, then fold in the chocolate chips.",
+                "Drop dough by rounded spoonfuls onto a baking sheet.",
+                "Bake for 10-12 minutes or until edges are golden.",
+                "Cool on wire racks."
+            ]
+        },
+        {
+            "name": "Chicken Curry",
+            "image": "https://www.cookwithmanali.com/wp-content/uploads/Chicken-Curry-1.jpg",
+            "ingredients": [
+                { "name": "chicken thighs", "quantity": 500, "unit": "grams" },
+                { "name": "onion", "quantity": 1, "unit": "large" },
+                { "name": "garlic", "quantity": 3, "unit": "cloves" },
+                { "name": "ginger", "quantity": 1, "unit": "tablespoon" },
+                { "name": "curry powder", "quantity": 2, "unit": "tablespoons" },
+                { "name": "coconut milk", "quantity": 1, "unit": "cup" },
+                { "name": "tomatoes", "quantity": 2, "unit": "large" },
+                { "name": "cilantro", "quantity": "a handful", "unit": "" }
+            ],
+            "instructions": [
+                "Heat oil in a pot and cook onions, garlic, and ginger until soft.",
+                "Add curry powder and cook for 1 minute.",
+                "Add the chicken and brown on all sides.",
+                "Pour in the coconut milk and add the tomatoes.",
+                "Simmer for 20-25 minutes until the chicken is cooked through.",
+                "Garnish with cilantro and serve with rice."
+            ]
+        },
+        {
+            "name": "Caesar Salad",
+            "image": "https://www.simplyrecipes.com/thmb/CaesarSalad-e0e0c2eb4c1a0ad7e7227020b2541dbf.jpg",
+            "ingredients": [
+                { "name": "romaine lettuce", "quantity": 1, "unit": "head" },
+                { "name": "croutons", "quantity": 1, "unit": "cup" },
+                { "name": "parmesan cheese", "quantity": 0.5, "unit": "cup" },
+                { "name": "anchovies", "quantity": 4, "unit": "filets" },
+                { "name": "garlic", "quantity": 1, "unit": "clove" },
+                { "name": "lemon juice", "quantity": 2, "unit": "tablespoons" },
+                { "name": "Dijon mustard", "quantity": 1, "unit": "teaspoon" },
+                { "name": "olive oil", "quantity": 0.25, "unit": "cup" }
+            ],
+            "instructions": [
+                "Chop the romaine lettuce and place it in a large bowl.",
+                "In a blender, combine anchovies, garlic, lemon juice, and Dijon mustard. Blend while slowly adding olive oil to make a dressing.",
+                "Toss the lettuce with the dressing, croutons, and parmesan cheese.",
+                "Serve immediately."
+            ]
+        },
+        {
+            "name": "Margarita Pizza",
+            "image": "https://www.thespruceeats.com/thmb/MargaritaPizza.jpg",
+            "ingredients": [
+                { "name": "pizza dough", "quantity": 1, "unit": "ball" },
+                { "name": "tomato sauce", "quantity": 0.5, "unit": "cup" },
+                { "name": "mozzarella cheese", "quantity": 1, "unit": "cup" },
+                { "name": "fresh basil", "quantity": "a handful", "unit": "" },
+                { "name": "olive oil", "quantity": 2, "unit": "tablespoons" }
+            ],
+            "instructions": [
+                "Preheat the oven to 475°F (245°C).",
+                "Roll out the pizza dough on a floured surface.",
+                "Spread tomato sauce over the dough.",
+                "Add mozzarella cheese and fresh basil leaves.",
+                "Drizzle with olive oil and bake for 10-12 minutes until the crust is golden and the cheese is bubbly."
+            ]
+        }
+    ]
+}
+

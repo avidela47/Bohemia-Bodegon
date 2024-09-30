@@ -1,0 +1,120 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://img.freepik.com/fotos-premium/chuleton-plancha-su-punto-ia-generativa_545448-16378.jpg');
+    background-size: cover; /* Hace que la imagen ocupe todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen para mejorar la calidad visual */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+ 
+
+/* Contenedor para las cards */
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* Se ajusta automáticamente */
+    gap: 20px;
+    /* Espacio entre las cards */
+    max-width: 1200px;
+    /* Limita el ancho máximo del contenedor */
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* Card Styles */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ff6f61;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.card .btn:hover {
+    background-color: #ff4a36;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cards-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        /* Ajusta el ancho mínimo en pantallas pequeñas */
+    }
+
+    .card h3 {
+        font-size: 1.1rem;
+    }
+
+    .card p {
+        font-size: 0.95rem;
+    }
+
+    .card .btn {
+        padding: 8px 16px;
+    }
+}
+
+/* Estilos para el botón de volver */
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ff6f61;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.back-button i {
+    font-size: 1.5rem;
+    margin-right: 8px;
+}
+
+.back-button:hover {
+    color: #ff4a36;
+}

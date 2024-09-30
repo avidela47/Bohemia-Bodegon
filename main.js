@@ -58,3 +58,14 @@ const swiper = new Swiper(".swiper", {
     el: ".swiper-pagination",
   },
 });
+
+// Function to navigate to the recipe page and pass the selected recipe category
+function showRecipe(category) {
+  // You can set different actions based on the category
+  if (category === 'postres', 'carnes', 'entradas', 'pastas') {
+    // Redirect to the recipe page
+    window.location.href = './recipe.html';
+  }
+  // You can handle other categories in the same way if necessary
+}
+
