@@ -245,58 +245,77 @@ body {
   }
 
   @media only screen and (max-width: 900px) {
-    /* Ajuste del contenedor general */
+    /* Ajustar el contenedor general */
     .container {
-        padding: 10px; /* Reduce el padding */
+      padding: 10px;
     }
-
-    /* Ajuste del título principal */
+  
+    /* Título principal */
     h1 {
-        font-size: 2.2rem; /* Tamaño de fuente ligeramente más pequeño */
+      font-size: 2rem;
+      margin-bottom: 15px;
     }
-
-    /* Ajustes en el buscador */
-    .search-container {
-        margin-bottom: 20px; /* Reduce el margen inferior */
-    }
-
+  
+    /* Estilo del buscador */
     .search-container input {
-        font-size: 16px; /* Tamaño de fuente ajustado */
-        padding: 10px; /* Reduce el padding */
+      padding: 10px;
+      font-size: 16px;
+      max-width: 100%; /* Hacer que el input ocupe todo el ancho disponible */
     }
-
-    /* Ajustes en las tarjetas */
+  
+    /* Botón de volver */
+    .back-button {
+      padding: 8px 12px;
+      font-size: 0.9rem;
+    }
+  
+    /* Ajustar las cards para una mejor visualización */
     .cards-container {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Cambia a un mínimo de 200px por tarjeta */
-        gap: 15px; /* Reduce el espacio entre las tarjetas */
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 10px;
     }
-
-    .card {
-        padding: 10px; /* Reduce el padding dentro de las tarjetas */
+  
+    .card img {
+      height: 200px;
     }
-
+  
+    /* Ajustar los textos en las cards */
     .card h3 {
-        font-size: 1.15rem; /* Tamaño de fuente para títulos de tarjetas */
+      font-size: 1.1rem;
     }
-
+  
     .card p {
-        font-size: 0.9rem; /* Tamaño de fuente para descripciones de tarjetas */
+      font-size: 0.9rem;
     }
-
-    /* Ajustes en los botones */
+  
     .card .btn {
-        padding: 8px 15px; /* Reduce el padding del botón */
+      padding: 8px 16px;
+      font-size: 0.9rem;
     }
-
-    /* Ajustes en el modal */
+  
+    /* Estilo del modal */
     .modal-content {
-        width: 90%; /* Aumenta el ancho en dispositivos más pequeños */
-        padding: 15px; /* Reduce el padding del contenido modal */
+      width: 95%;
+      padding: 15px;
     }
-
-    .close-button {
-        font-size: 24px; /* Tamaño de fuente del botón cerrar */
+  
+    /* Ajustar el tamaño de las imágenes en el modal */
+    .modal-body img {
+      margin-bottom: 15px;
     }
-}
+  
+    /* Ajustar encabezados en el modal */
+    .modal-content h3 {
+      font-size: 1.5rem;
+      margin: 8px 0;
+    }
+  
+    .modal-content h4 {
+      font-size: 1.2rem;
+      margin: 5px 0;
+    }
+  }
+  
 
   
