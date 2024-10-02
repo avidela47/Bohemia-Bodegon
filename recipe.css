@@ -57,7 +57,7 @@ h1 {
 
 /* Botón de volver */
 .back-button-container {
-  margin: 0;
+  margin: 2px;
 }
 
 .back-button {
@@ -188,7 +188,10 @@ h1 {
 .modal-body img {
   width: 100%;
   height: auto;
+  max-width: 120%; /* Aumenta el ancho para hacerla más ancha */
+  max-height: 400px;
   margin-bottom: 20px;
+  object-fit: contain;
 }
 
 /* Estilo para el contenido textual del modal */

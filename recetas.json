@@ -1,34 +1,32 @@
 {
     "recipes": [
         {
-            "name": "Apple Crumble",
-            "tipo": "postre",
-            "image": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2FPhoto%2FRecipes%2F2019-10-how-to-easiest-apple-crumble%2FHT-Easiest-Apple-Crumble_080",
+            "name": "Escabeche de pollo",
+            "tipo": "Entrada",
+            "image": "https://i.pinimg.com/236x/c8/a1/e5/c8a1e57ba1a33ac339537a8b02fc2337.jpg",
             "ingredients": [
-                { "name": "medium apples", "quantity": 4, "unit": "" },
-                { "name": "sugar", "quantity": 0.5, "unit": "cup" },
-                { "name": "cinnamon", "quantity": 1, "unit": "teaspoon" },
-                { "name": "nutmeg", "quantity": 0.25, "unit": "teaspoon" },
-                { "name": "flour", "quantity": 0.5, "unit": "cup" },
-                { "name": "rolled oats", "quantity": 0.5, "unit": "cup" },
-                { "name": "brown sugar", "quantity": 0.5, "unit": "cup" },
-                { "name": "softened butter", "quantity": 0.5, "unit": "cup" },
-                { "name": "salt", "quantity": "a pinch", "unit": "" }
+                { "name": " pechuga de pollo", "quantity": 1, "unit": "" },
+                { "name": "cebolla", "quantity": 1, "unit": "" },
+                { "name": "zanahoria", "quantity": 1, "unit": "" },
+                { "name": "puerro", "quantity": 1, "unit": "" },
+                { "name": "dientes ajo", "quantity": 2, "unit": "" },
+                { "name": "aceite oliva virgen extra", "quantity": 250, "unit": "ml" },
+                { "name": "vinagre de manzana", "quantity": 150, "unit": "ml" },
+                { "name": "pimienta", "quantity": 4, "unit": "granos" },
+                { "name": "laurel", "quantity": "3", "unit": "hojas" },
+                { "name": "oregano", "quantity": "4", "unit": "hojas" }
             ],
             "instructions": [
-                "Preheat the oven to 375°F (190°C).",
-                "In a large bowl, mix together the apples, sugar, cinnamon, and nutmeg. Transfer the mixture to a baking dish.",
-                "In another bowl, mix together the flour, rolled oats, brown sugar, and salt.",
-                "Add the softened butter and use your fingers to mix until you get coarse crumbs.",
-                "Sprinkle the crumb mixture on top of the apple mixture in the baking dish.",
-                "Bake in the oven for 30-35 minutes, or until the crumble is golden and crispy.",
-                "Let it cool before serving."
+                "Enharinamos la pechuga de pollo  la doramos en una sartén con 100 ml de aceite de oliva. Retiramos y reservamos tapada para que no pierda calor.",
+                "En el mismo aceite añadimos la cebolla, el puerro, la zanahoria cortados en rodajas finas y el diente de ajo pelado entero. Dejamos a fuego moderado hasta que la cebolla y el puerro estén blanditos.",
+                "Introducimos de nuevo la pechuga e incorporamos el resto de aceite, el vinagre, el agua y la sal. (El líquido debe cubrir por completo al pollo). Añadimos el laurel, la pimienta negra y el orégano y dejamos cocer sin que llegue a hervir durante 30 minutos.",
+                "Dejamos enfriar e introducimos en un frasco hermético de cristal para su conservación. Antes de comerlo conviene dejar reposar durante 24 horas para que los sabores y aromas se acentúen."
             ]
         },
         {
-            "name": "Spaghetti Carbonara",
-            "tipo": "pasta",
-            "image": "https://static01.nyt.com/images/2021/02/14/dining/carbonara-horizontal/carbonara-horizontal-googleFourByThree-v2.jpg",
+            "name": "Escabeche de berenjenas",
+            "tipo": "Entrada",
+            "image": "https://i.pinimg.com/236x/fd/38/c8/fd38c8fda21f98240eaa19afb1b6a136.jpg",
             "ingredients": [
                 { "name": "spaghetti", "quantity": 400, "unit": "grams" },
                 { "name": "pancetta", "quantity": 150, "unit": "grams" },
