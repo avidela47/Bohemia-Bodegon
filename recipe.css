@@ -186,12 +186,13 @@ h1 {
 }
 
 .modal-body img {
-  width: 100%;
-  height: auto;
-  max-width: 120%; /* Aumenta el ancho para hacerla más ancha */
-  max-height: 400px;
+  width: 400px;
+  height: 250px;
   margin-bottom: 20px;
-  object-fit: contain;
+  object-fit: cover; /* Hace que las imágenes se ajusten a las dimensiones sin deformarse */
+  margin-left: 10%;
+  margin-top: 50px;
+  border-radius: 5%;
 }
 
 /* Estilo para el contenido textual del modal */
