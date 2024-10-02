@@ -353,7 +353,10 @@ h1 {
 
   /* Ajustar el tamaño de las imágenes en el modal */
   .modal-body img {
-    margin-bottom: 15px;
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-left: 0; /* Alinea la imagen centrada si es necesario */
+    margin-top: 20px; /* Reduce el margen superior */
   }
 
   /* Ajustar encabezados en el modal */
