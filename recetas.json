@@ -28,48 +28,61 @@
             "tipo": "Entrada",
             "image": "https://i.pinimg.com/236x/fd/38/c8/fd38c8fda21f98240eaa19afb1b6a136.jpg",
             "ingredients": [
-                { "name": "spaghetti", "quantity": 400, "unit": "grams" },
-                { "name": "pancetta", "quantity": 150, "unit": "grams" },
-                { "name": "eggs", "quantity": 3, "unit": "large" },
-                { "name": "parmesan cheese", "quantity": 0.5, "unit": "cup" },
-                { "name": "black pepper", "quantity": "to taste", "unit": "" },
-                { "name": "salt", "quantity": "to taste", "unit": "" }
+                { "name": "Berenjenas", "quantity": 1, "unit": "kg" },
+                { "name": "Sal gruesa", "quantity": 8, "unit": "cucharadas" },
+                { "name": "Aji molido", "quantity": 2, "unit": "cucharadas" },
+                { "name": "Orégano", "quantity": 2, "unit": "cucharadas" },
+                { "name": "Ajo", "quantity": "6", "unit": "dientes" },
+                { "name": "Pimienta en grano", "quantity": "2", "unit": "cucharadas" },
+                { "name": "laurel", "quantity": "1", "unit": "hoja" },
+                { "name": "Aceite de girasol", "quantity": "cantidad necesaria", "unit": "" }
             ],
             "instructions": [
-                "Cook the spaghetti in salted boiling water until al dente.",
-                "In a pan, cook the pancetta until crispy.",
-                "In a bowl, beat the eggs and mix in the parmesan cheese.",
-                "Drain the spaghetti and mix it with the pancetta.",
-                "Remove from heat and quickly add the egg mixture, stirring vigorously to create a creamy sauce.",
-                "Season with black pepper and serve immediately."
+                "Lavar y cortar las berenjenas en rodajas algo gruesas, más o menos de 1 a 1 1/2 cm. de espesor.",
+                "Acomodar las rodajas en un colador, por capas, e ir espolvoreando con la sal gruesa.",
+                "Dejarlas así por lo menos 2 horas, para que larguen el líquido amargo.",
+                "Lavar bien las rodajas de berenjenas bajo el chorro de la canilla. Reservar.",
+                "Pelar, retirar el germen (tallito verde del centro) y picar finamente los dientes de ajos.",
+                "Mezclar el orégano con el ají molido y los granos de pimienta.",
+                "En una olla preparar el agua de hervor: mezclar el agua, la sal gruesa y el vinagre de manzana; hervir.",
+                "Agregar las berenjenas en tandas y cocinarlas de 2 a 4 minutos: deben estar tiernas, pero no se tienen que deshacer. Escurrir y enfriar en un colador bien limpio.",
+                "En frascos previamente bien esterilizados, acomodar una capa de berenjenas cocidas, frías y escurridas.",
+                "Espolvorear con un poco de la mezcla de condimentos y del ajo picado. Repetir con las berenjenas y condimentos hasta terminar.",
+                "Cubrir TOTALMENTE con aceite y poner 1 hojita de laurel en cada frasco: las berenjenas deben estar perfectamente cubiertas con el aceite.",
+                "Cerrar herméticamente con tapa previamente esterilizada.",
+                "Una vez que tengamos el frasco bien cerrado, ponerlo en una olla con agua, hasta que el mismo quede cubierto completamente. Se puede poner un par de repasadores limpios entre los frascos, para evitar que se choquen y se rompan.",
+                "Calentar el agua hasta que tome punto de ebullición y hervir unos 20 minutos a 100ª C. Apagar el fuego y dejar allí los frascos, hasta que el agua se enfríe.",
+                "Con cuidado retirar los frascos, secarlos con paño bien limpio y dejar así hasta que se enfríen totalmente.",
+                "Guardar en lugar seco, fresco y oscuro."
             ]
         },
         {
-            "name": "Chocolate Chip Cookies",
-            "image": "https://www.verybestbaking.com/sites/g/files/jgfbjl326/files/srh_recipes/4bc5edb86285aadc28069f51d9e98974.jpg",
+            "name": "Calamares rebosados",
+            "tipo": "Entrada",
+            "image": "https://www.cocinatis.com/archivos/202207/CTIS125-receta-calamares-rebozados_desktop_horizontal_full_width.jpg",
             "ingredients": [
-                { "name": "butter", "quantity": 1, "unit": "cup" },
-                { "name": "sugar", "quantity": 1, "unit": "cup" },
-                { "name": "brown sugar", "quantity": 0.5, "unit": "cup" },
-                { "name": "eggs", "quantity": 2, "unit": "large" },
-                { "name": "vanilla extract", "quantity": 1, "unit": "teaspoon" },
-                { "name": "flour", "quantity": 2.5, "unit": "cups" },
-                { "name": "baking soda", "quantity": 1, "unit": "teaspoon" },
-                { "name": "chocolate chips", "quantity": 1.5, "unit": "cups" }
+                { "name": "Calamares", "quantity": 2, "unit": "unidades" },
+                { "name": "Huevos", "quantity": 2, "unit": "unidades" },
+                { "name": "Leche", "quantity": 90, "unit": "ml" },
+                { "name": "Harina", "quantity": 90, "unit": "gm" },
+                { "name": "Aceite", "quantity": "cantidad necesaria", "unit": "" },
+                { "name": "Limon", "quantity": 2, "unit": "unidades" },
+                { "name": "Sal", "quantity": "cantidad necesaria", "unit": "" }
             ],
             "instructions": [
-                "Preheat the oven to 350°F (175°C).",
-                "Cream together the butter and sugars until smooth.",
-                "Beat in the eggs and vanilla extract.",
-                "Stir in the flour and baking soda, then fold in the chocolate chips.",
-                "Drop dough by rounded spoonfuls onto a baking sheet.",
-                "Bake for 10-12 minutes or until edges are golden.",
-                "Cool on wire racks."
+                "Limpia los calamares, pásalos por agua y escúrrelos bien.",
+                "Corta el calamar en aros.",
+                "Pon los aros de calamar y los tentáculos en un plato y sazona al gusto. Echa un poco de harina por encima y remueve.",
+                "Pon en un bol la harina, sal y pimienta y remueve con las varillas. Añade la leche poco a poco mientras sigues removiendo. Añade los 2 huevos al bol y bate con las varillas hasta tener una mezcla homogénea.",
+                "Reboza los calamares y los tentáculos en la mezcla del bol. Ponlos en un colador y dales unos golpes para retirar el exceso de harina.",
+                "Pon una sartén con abundante aceite al fuego, y cuando esté caliente, fríe los calamares poco a poco. Pon los calamares sobre un plato con papel absorbente para escurrir el exceso de aceite.",
+                "Sirve los calamares a la romana y acompaña con unas gotas de limón."
             ]
         },
         {
-            "name": "Chicken Curry",
-            "image": "https://www.whiskaffair.com/wp-content/uploads/2021/10/Andhra-Chicken-Curry-2-3.jpg",
+            "name": "Bueñuelos de espinacas",
+            "tipo": "Entrada",
+            "image": "https://i.pinimg.com/236x/0b/2f/36/0b2f36b3cb327309bc74ffda4be802e3.jpg",
             "ingredients": [
                 { "name": "chicken thighs", "quantity": 500, "unit": "grams" },
                 { "name": "onion", "quantity": 1, "unit": "large" },
